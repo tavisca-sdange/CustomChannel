@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sdange\\Documents\\Tavisca_Email_Modernization\\POC\\WebhookCustomChannel\\WebhookCustomChannel.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sdange\\Documents\\Tavisca_Email_Modernization\\POC\\WebhookCustomChannel\\WebhookCustomChannel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sdange\\Documents\\Tavisca_Email_Modernization\\POC\\WebhookCustomChannel\\WebhookCustomChannel.csproj",
+        "projectName": "WebhookCustomChannel",
+        "projectPath": "C:\\Users\\sdange\\Documents\\Tavisca_Email_Modernization\\POC\\WebhookCustomChannel\\WebhookCustomChannel.csproj",
+        "packagesPath": "C:\\Users\\sdange\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sdange\\Documents\\Tavisca_Email_Modernization\\POC\\WebhookCustomChannel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sdange\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.cnxloyalty.com/api/v2": {},
+          "http://stage-packagegallery.tavisca.com/api/odata": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AWSSDK.Core": {
+              "target": "Package",
+              "version": "[3.7.3.22, )"
+            },
+            "AWSSDK.Pinpoint": {
+              "target": "Package",
+              "version": "[3.7.3.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
